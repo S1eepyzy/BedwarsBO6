@@ -1,3 +1,0 @@
-1.修改游戏指令
-加入/bwb arena help显示创建顺序 然后最后检测是否完成不用list 把list指令改成查看有多少张地图 在加一个传送到该地图世界的指令也写在arena下面 info [地图名] 是查看地图属性的在玩家save的时候就检测 如果缺少东西就不让save 如果这个地图都创建完成了 但是没有save不保存本地 如果缺少东西 你要告诉他缺少什么 一个地图必须需要一个床 2个出生点 4个物资生成点 然后/bwb arena setcenter和/bwb arena setsumo 冲突 删掉第一个指令
-/bwb setlobby /bwb setmainlobby 这俩都是一个东西 然后我我需要只留一个 setmainlobby吧 在然后我还需要 确保新玩家和老玩家每次进入游戏的出生点都是我保存的这个 然后/bwb setwaitlobby这个指令也要挪去arena里面4个npc的指令也需要挪去arena
